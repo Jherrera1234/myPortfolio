@@ -1,0 +1,43 @@
+.project-images{
+  height: 200px;
+  width:200px;
+}
+.project-div{
+  display: flex;
+  font-family: 'Amiri', serif;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.projects{
+  text-decoration: none;
+  border: 5px black ;
+  color: black;
+  margin: 0px 20px;
+  margin-bottom: 15px;
+  border: 3px solid black;
+  background-color: darkgray;
+}
+
+.project-1,.project-2,.project-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  background-color: cornflowerblue;
+  margin: 20px;
+  padding: 10px;
+  border: 10px solid darkgray;
+  
+}
+
+.projects-links{
+  display: flex;
+    justify-content: space-around;
+    
+   
+    
+}

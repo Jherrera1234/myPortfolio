@@ -1,0 +1,25 @@
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 10px solid black;
+  height: 15vh;
+  font-size: 25px;
+  font-family: 'Amiri', serif;
+  background-color: #7C90A0;
+}
+.titles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 25vw;
+}
+
+.home-nav{
+  margin-left: 25px;
+}
+
+.nav-links{
+  text-decoration: none;
+  color: black;
+}

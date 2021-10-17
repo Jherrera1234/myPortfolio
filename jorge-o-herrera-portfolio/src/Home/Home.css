@@ -1,0 +1,31 @@
+#images-code{
+  height: 100px;
+  width: 100px;
+}
+
+.home-div,.bio-div,.skills-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-list{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 196px;
+}
+
+.home-div{
+   font-family: 'Amiri', serif;;
+}
+
+.pargraph-bio{
+  width:854px;
+}
+
+.resume-link{
+  text-decoration: none;
+  font-size: 30px;
+}
