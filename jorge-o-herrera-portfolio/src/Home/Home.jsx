@@ -12,7 +12,7 @@ export default function Home() {
           <h2 className='headers'>About Me: </h2>
           <p className='pargraph-bio'> I am a full stack developer with experience in React.js, Express/MongoDb and Ruby On Rails. I have an strong desire to learn and always able to adapt to any situation.I am also a Mechanical Engineering graduate from Northern Illinois University. I hope that I can integrate my problem-solving skills into any software developer environment. I also  have experience in customer service working in retail at Home Depot and Domino's Pizza. During July 2021 I went through the General Assembly Software Engineering Immersive and learned various new coding languages in addition to previous languages that I have learned. I learned how to create various projects using Recat.js and two different backend languages and databases involving MongoDB, Express, PostSQL and Ruby on Rails. I came out of every unit and project learning something every day. I hope to keep this experience going at  a tech company and grow as a developer. </p>
           <div className='resume'>
-            <a className='resume-link' href='https://docs.google.com/document/d/1cbdk2vUowEOXL5Pk74h-UC1GfWmshlb3cFYarxnwynY/edit#'>Resume</a>
+            <a className='resume-link' href='https://drive.google.com/file/d/17uXf_fx9YsZrFl9LxKiDoJ5jvXSbLRqu/view?usp=sharing'>Resume</a>
           </div>
           <div className='skills-div'>
             <h2 className='headers'>Skills</h2>
