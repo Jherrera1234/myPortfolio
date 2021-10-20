@@ -16,7 +16,7 @@ export default function Home() {
           </div>
           <div className='skills-div'>
             <h2 className='headers'>Skills</h2>
-            <p>     I currently thoroughly know or am familar with these programming languages and softwares:</p>
+            <p className='info-p'>     I currently thoroughly know or am familar with these programming languages and softwares:</p>
             <ul className='skills-list'>
               <li>JavaScript</li>
               <li>HTML</li>

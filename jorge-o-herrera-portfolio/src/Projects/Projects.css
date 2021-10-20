@@ -4,21 +4,21 @@
 }
 .project-div{
   display: flex;
-  font-family: 'Amiri', serif;
+  font-family: 'Roboto', sans-serif;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 
 
 .projects{
   text-decoration: none;
-  border: 5px black ;
-  color: black;
+  color: white;
   margin: 0px 20px;
   margin-bottom: 15px;
-  border: 3px solid black;
-  background-color: darkgray;
+  border: 3px solid white;
+  background-color: none;
 }
 
 .project-1,.project-2,.project-3{
@@ -27,10 +27,12 @@
   align-items: center;
   justify-content: center;
   width: 300px;
-  background-color: cornflowerblue;
+  background-color: none;
   margin: 20px;
   padding: 10px;
-  border: 10px solid darkgray;
+  border: 5px solid darkgray;
+  font-size: larger;
+  font-weight: bolder;
   
 }
 

@@ -5,8 +5,8 @@
   border: 10px solid black;
   height: 15vh;
   font-size: 25px;
-  font-family: 'Amiri', serif;
-  background-color: #7C90A0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eff2f5;
 }
 .titles{
   display: flex;

@@ -4,5 +4,9 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  font-family: 'Amiri', serif;
+  font-family: 'Roboto', sans-serif;
+ }
+ .connect-with{
+   text-decoration: none;
+   color: lightblue;
  }

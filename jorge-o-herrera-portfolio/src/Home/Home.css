@@ -15,17 +15,24 @@
     flex-direction: column;
     flex-wrap: wrap;
     height: 196px;
+    margin-bottom:0 ;
 }
 
 .home-div{
-   font-family: 'Amiri', serif;;
+  font-family: 'Roboto', sans-serif;
 }
 
 .pargraph-bio{
   width:854px;
+  margin: 0;
 }
 
 .resume-link{
   text-decoration: none;
   font-size: 30px;
+  color: lightblue;
+}
+
+.info-p{
+  margin:0;
 }
