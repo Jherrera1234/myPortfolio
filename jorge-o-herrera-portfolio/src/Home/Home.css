@@ -24,7 +24,7 @@
 
 .pargraph-bio{
   width:854px;
-  margin: 0;
+  
 }
 
 .resume-link{
@@ -33,6 +33,6 @@
   color: lightblue;
 }
 
-.info-p{
+/* .info-p{
   margin:0;
-}
+} */
