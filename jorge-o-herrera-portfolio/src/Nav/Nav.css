@@ -2,17 +2,20 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 10px solid black;
+  border: 10px solid rgb(255, 255, 255);
   height: 15vh;
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
-  background-color: #eff2f5;
+  background-color: black;
+  
+  z-index: 100;
 }
 .titles{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 25vw;
+  
 }
 
 .home-nav{
@@ -21,5 +24,6 @@
 
 .nav-links{
   text-decoration: none;
-  color: black;
+  color:rgb(3, 184, 245);
+  border: white;
 }

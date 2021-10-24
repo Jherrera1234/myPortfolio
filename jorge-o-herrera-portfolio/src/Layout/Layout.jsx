@@ -8,6 +8,7 @@ export default function Layout(props) {
       <Nav />
       <div className="content-container">{props.children}</div>
 
+
     </div>
   )
 }
