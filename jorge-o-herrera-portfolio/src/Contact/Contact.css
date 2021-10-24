@@ -1,12 +1,35 @@
-.contact-div{
+.container{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contact-form{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-family: 'Roboto', sans-serif;
- }
- .connect-with{
-   text-decoration: none;
-   color: lightblue;
- }
+  margin: 20px;
+  width: 300px;
+    height: 900px;
+}
+
+.name-input,.email-input,.message-input{
+   margin:10px;
+   border: 3px solid black;
+}
+
+#sent{
+  background-color: cadetblue;
+}
+.contact-form-submit{
+  border: 5px solid black;
+  background-color: white;
+}
+
+.contact-me{
+  font-size: 30px;
+    font-weight: bolder;
+}

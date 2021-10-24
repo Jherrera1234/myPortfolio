@@ -1,17 +1,55 @@
-import React from 'react'
+import React, { useRef, useState } from "react";
+import emailjs from "emailjs-com";
 import './Contact.css'
 
 export default function Contact() {
+  const [sent, setSent] = useState(false);
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setSent(true);
+    emailjs
+      .sendForm(
+        "service_68ll6tk",
+        "template_l2ozyi9",
+        form.current,
+        "user_xJlHgHnMhR8GaFwERGO1S"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.error(error.text);
+        }
+      );
+  };
+
   return (
-    <div className='contact-main'>
-
-      <div className='contact-div'>
-        <h1>My Contact Information:</h1>
-        <p >I hope to be in contact!</p>
-        <p className='email'>My Email: jherrera1850@gmail.com</p>
-        <a className='connect-with' href="https://www.linkedin.com/in/jorge-o-herrera-/">Connect with me on LinkedIn</a>
+    <div className="contact">
+      <div className="container">
+        <div id="contact-left">
+          <header className='contact-me'>Contact me</header>
+        </div>
+        <form className='contact-form' ref={form} onSubmit={sendEmail} onChange={() => setSent(false)}>
+          <input
+            className='name-input'
+            type="text"
+            placeholder="Your name"
+            name="user_name"
+            required
+          />
+          <input className='email-input' type="email" placeholder="Email" name="user_email" required />
+          <textarea className='message-input' name="message" placeholder="Message" rows="6" required />
+          <input
+            type="submit"
+            value={sent ? "Sent" : "Submit"}
+            className="contact-form-submit"
+            id={sent ? "sent" : "not-sent"}
+          />
+        </form>
       </div>
-
     </div>
-  )
+  );
 }

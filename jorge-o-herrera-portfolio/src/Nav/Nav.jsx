@@ -18,6 +18,7 @@ export default function Nav() {
           <p className='contact-nav'>Contact</p>
         </Link>
 
+        <a className='resume-links' href='https://drive.google.com/file/d/1PiK1vfIBtMco0r9XHUPIzlcZ5B2wxONw/view?usp=sharing'>Resume</a>
 
       </div>
 

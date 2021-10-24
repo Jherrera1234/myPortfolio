@@ -17,16 +17,21 @@
     flex-wrap: wrap;
     height: 196px;
     margin-bottom:0 ;
+    font-weight: 1000;
 }
 
 .home-div{
   font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 .pargraph-bio{
   width:854px;
+  line-height: 30px;
+  font-weight: 1000;
   
 }
+
 
 .resume-link{
   text-decoration: none;
@@ -34,6 +39,21 @@
   color: black;
 }
 
+.bio-div{
+  border: 10px solid gold;
+}
+
+.resume{
+  display: flex;
+  flex-direction: column;
+}
+
+.links-to{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 1em;
+}
 /* .info-p{
   margin:0;
 } */

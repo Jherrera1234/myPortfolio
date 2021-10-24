@@ -6,10 +6,13 @@
   height: 15vh;
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
-  background-color: black;
-  
+font-family: 'Roboto Condensed', sans-serif;
+  background-color: rgb(0, 0, 0);
+  font-weight: 1000;
   z-index: 100;
+ 
 }
+
 .titles{
   display: flex;
   flex-direction: row;
@@ -25,5 +28,11 @@
 .nav-links{
   text-decoration: none;
   color:rgb(3, 184, 245);
-  border: white;
+  
+}
+
+.resume-links{
+  text-decoration: none;
+  color:rgb(3, 184, 245);
+  margin: 25px 0px;
 }

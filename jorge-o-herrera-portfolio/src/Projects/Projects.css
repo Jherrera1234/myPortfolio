@@ -5,6 +5,7 @@
 .project-div{
   display: flex;
   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   justify-content: center;
   align-items: center;
   color: rgb(0, 0, 0);

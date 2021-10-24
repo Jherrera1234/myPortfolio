@@ -5,11 +5,11 @@ const ParticleConfig =
       value: 160,
       density: {
         enable: true,
-        value_area: 800
+        value_area: 473.4885849793636
       }
     },
     color: {
-      value: "#25291C"
+      value: "#ff0000"
     },
     shape: {
       type: "circle",
@@ -28,7 +28,7 @@ const ParticleConfig =
     },
     opacity: {
       value: 1,
-      random: true,
+      random: false,
       anim: {
         enable: true,
         speed: 1,
@@ -47,10 +47,10 @@ const ParticleConfig =
       }
     },
     line_linked: {
-      enable: false,
-      distance: 150,
-      color: "#ffffff",
-      opacity: 0.4,
+      enable: true,
+      distance: 90,
+      color: "#000000",
+      opacity: 0.2,
       width: 1
     },
     move: {
@@ -109,5 +109,4 @@ const ParticleConfig =
   },
   retina_detect: true
 }
-
 export default ParticleConfig;
