@@ -54,6 +54,112 @@ font-family: 'Roboto Condensed', sans-serif;
   margin: 10px;
   padding: 1em;
 }
-/* .info-p{
-  margin:0;
-} */
+
+@media only screen and (max-width:1038px) {
+  .icons{
+    height: 50px;
+    width: 50px;
+  }
+  
+}
+
+
+@media only screen and (max-width:918px) {
+  .pargraph-bio{
+    width:554px;
+    line-height: 30px;
+    font-weight: 1000;
+    
+  }
+  
+}
+
+@media only screen and (max-width:706px) {
+  .pargraph-bio{
+    width:424px;
+    line-height: 30px;
+    font-weight: 1000;
+        
+  }
+  
+}
+
+@media only screen and (max-width:628px) {
+  .skills-div{
+    width: 399px;
+  }
+  .info-p{
+    margin-left: 56px;
+  }
+
+  .skills-list{
+    margin-right: 70px;
+  }
+
+  .resume{
+    margin: 20px 0px;
+  }
+  .home-div{
+    font-size: 12px;
+  }
+  .resume-link{
+    font-size: 21px;
+  }
+  .pargraph-bio{
+    width:324px;
+    line-height: 30px;
+    font-weight: 1000;
+    
+        
+  }
+  
+}
+
+@media only screen and (max-width:450px) {
+  .home-div{
+    font-size: 9px;
+  }
+  .skills-div{
+    width: 339px;
+    font-size: 12px;
+  }
+  .info-p{
+    margin-left: 56px;
+  }
+
+  .skills-list{
+    margin-right: 70px;
+  }
+
+  .resume{
+    margin: 20px 0px;
+  }
+  .pargraph-bio{
+    width:224px;
+    line-height: 30px;
+    font-weight: 1000;
+        
+  }
+  .icons{
+    height: 30px;
+    width: 30px;
+
+  }
+  
+  
+}
+
+@media only screen and (max-width:370px) {
+.pargraph-bio{
+  margin: 0px;
+}
+  .skills-div{
+    width: 240px;
+  }
+
+  .info-p{
+    margin-left: 41px;
+  }
+  
+  
+}

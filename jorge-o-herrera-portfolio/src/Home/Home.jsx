@@ -16,9 +16,9 @@ export default function Home() {
 
             <a className='resume-link' href='https://drive.google.com/file/d/1PiK1vfIBtMco0r9XHUPIzlcZ5B2wxONw/view?usp=sharing'>Click to get my Resume</a>
             <div className='links-to'>
-              <a href='https://github.com/Jherrera1234/'><Icon icon="bi:github" width="50" height="50" /></a>
+              <a href='https://github.com/Jherrera1234/'><Icon className='icons' icon="bi:github" width="50" height="50" /></a>
               <br />
-              <a href='https://www.linkedin.com/in/jorge-o-herrera-/' ><Icon icon="bi:linkedin" width="50" height="50" /></a>
+              <a href='https://www.linkedin.com/in/jorge-o-herrera-/' ><Icon className='icons' icon="bi:linkedin" width="50" height="50" /></a>
             </div>
           </div>
           <div className='skills-div'>
@@ -40,16 +40,16 @@ export default function Home() {
               <li>Unity/Unity3D</li>
             </ul>
             <div className='img-class'>
-              <Icon icon="akar-icons:html-fill" color="orange" width="100" height="100" />
-              <Icon icon="akar-icons:css-fill" color="blue" width="100" height="100" />
-              <Icon icon="tabler:brand-javascript" color='yellow' width="100" height="100" />
-              <Icon icon="logos:nodejs" color="blue" width="100" height="100" />
-              <Icon icon="akar-icons:react-fill" color="lightblue" width="100" height="100" />
-              <Icon icon="logos:express" width="100" height="100" />
-              <Icon icon="simple-icons:mongodb" color="green" width="100" height="100" />
-              <Icon icon="mdi:language-ruby" color="red" width="100" height="100" />
-              <Icon icon="simple-icons:rubyonrails" color="red" width="100" height="100" />
-              <Icon icon="cib:postgresql" color="blue" width="100" height="100" />
+              <Icon className='icons' icon="akar-icons:html-fill" color="orange" width="100" height="100" />
+              <Icon className='icons' icon="akar-icons:css-fill" color="blue" width="100" height="100" />
+              <Icon className='icons' icon="tabler:brand-javascript" color='yellow' width="100" height="100" />
+              <Icon className='icons' icon="logos:nodejs" color="blue" width="100" height="100" />
+              <Icon className='icons' icon="akar-icons:react-fill" color="lightblue" width="100" height="100" />
+              <Icon className='icons' icon="logos:express" width="100" height="100" />
+              <Icon className='icons' icon="simple-icons:mongodb" color="green" width="100" height="100" />
+              <Icon className='icons' icon="mdi:language-ruby" color="red" width="100" height="100" />
+              <Icon className='icons' icon="simple-icons:rubyonrails" color="red" width="100" height="100" />
+              <Icon className='icons' icon="cib:postgresql" color="blue" width="100" height="100" />
             </div>
           </div>
         </div>
