@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { Icon } from '@iconify/react';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 
@@ -12,13 +13,20 @@ export default function Home() {
         <div className='bio-div'>
           <h2 className='headers'>About Me: </h2>
           <p className='pargraph-bio'> I am a Software Engineer graduate from Genereal Assembly with experience in React.js, Express/MongoDb and Ruby On Rails. I have an strong desire to learn and always able to adapt to any situation. I came out of every unit and project learning something every day. I hope to keep this experience going at  a tech company and grow as a developer. I am also a Mechanical Engineering graduate from Northern Illinois University. I hope that I can integrate my problem-solving skills into any software developer environment. I also  have experience in customer service working in retail at Home Depot and Domino's Pizza. </p>
+          <div className='projects-div'>
+            <h3> Check out my projects here: </h3>
+            <Link className='project-home' to='/projects'>
+              <button className='project-button'>Projects</button>
+            </Link>
+          </div>
+
           <div className='resume'>
 
-            <a className='resume-link' href='https://drive.google.com/file/d/1PiK1vfIBtMco0r9XHUPIzlcZ5B2wxONw/view?usp=sharing'>Click to get my Resume</a>
+            <a className='resume-link' href='https://drive.google.com/file/d/1PiK1vfIBtMco0r9XHUPIzlcZ5B2wxONw/view?usp=sharing'><button className='resume-button'>Resume</button></a>
             <div className='links-to'>
-              <a href='https://github.com/Jherrera1234/'><Icon className='icons' icon="bi:github" width="50" height="50" /></a>
+              <a href='https://github.com/Jherrera1234/'><Icon id='git-link' className='icons' icon="bi:github" width="50" height="50" /></a>
               <br />
-              <a href='https://www.linkedin.com/in/jorge-o-herrera-/' ><Icon className='icons' icon="bi:linkedin" width="50" height="50" /></a>
+              <a href='https://www.linkedin.com/in/jorge-o-herrera-/' ><Icon id='git-link' className='icons' icon="bi:linkedin" width="50" height="50" /></a>
             </div>
           </div>
           <div className='skills-div'>
