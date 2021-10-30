@@ -19,7 +19,7 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Message Sent!")
+          alert("Message Sent! I will check my email and get back to you in the next 48 hours!")
         },
         (error) => {
           console.error(error.text);

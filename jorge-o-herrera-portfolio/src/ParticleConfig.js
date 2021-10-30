@@ -5,11 +5,11 @@ const ParticleConfig =
       value: 160,
       density: {
         enable: true,
-        value_area: 473.4885849793636
+        value_area: 800
       }
     },
     color: {
-      value: "#ff0000"
+      value: "#2344e1"
     },
     shape: {
       type: "circle",
@@ -28,7 +28,7 @@ const ParticleConfig =
     },
     opacity: {
       value: 1,
-      random: false,
+      random: true,
       anim: {
         enable: true,
         speed: 1,
@@ -47,10 +47,10 @@ const ParticleConfig =
       }
     },
     line_linked: {
-      enable: true,
-      distance: 90,
-      color: "#000000",
-      opacity: 0.2,
+      enable: false,
+      distance: 150,
+      color: "#ffffff",
+      opacity: 0.4,
       width: 1
     },
     move: {

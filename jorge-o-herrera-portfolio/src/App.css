@@ -1,1 +1,17 @@
+a:link{
+  color:#008ECC
+}
 
+a:visited{
+  color:#87cdee
+}
+
+a:hover{
+  color: rgb(168,177,223);
+color: radial-gradient(circle, rgba(168,177,223,1) 24%, rgba(107,113,166,1) 97%);
+}
+
+a:active {
+  color: rgb(168,177,223);
+color: radial-gradient(circle, rgba(168,177,223,1) 24%, rgba(107,113,166,1) 97%);
+}

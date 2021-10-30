@@ -18,11 +18,21 @@
     height: 196px;
     margin-bottom:0 ;
     font-weight: 1000;
+    gap:11px
+}
+
+.skills-list li{
+  margin: 0px 8px;
+}
+
+.skills-container{
+  margin-right: 15%;
 }
 
 .home-div{
   font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 .pargraph-bio{
@@ -40,7 +50,8 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .bio-div{
-  border: 10px solid gold;
+  border: 10px solid #008ECC;
+ 
 }
 
 .resume{
@@ -54,14 +65,18 @@ font-family: 'Roboto Condensed', sans-serif;
   justify-content: space-around;
   margin: 15px;
   padding: 1em;
+
 }
 
+
+
 .resume-button,.project-button{
-  border-radius:11px ;
-  background-color: cornflowerblue;
+  border-radius:20px ;
+  background-color: #008ECC;
   font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 font-size: 16px;
+padding: 0.2em;
 }
 
 #git-link{

@@ -22,31 +22,33 @@ export default function Home() {
 
           <div className='resume'>
 
-            <a className='resume-link' href='https://drive.google.com/file/d/1PiK1vfIBtMco0r9XHUPIzlcZ5B2wxONw/view?usp=sharing'><button className='resume-button'>Resume</button></a>
+            <a className='resume-link' href='https://drive.google.com/file/d/1PiK1vfIBtMco0r9XHUPIzlcZ5B2wxONw/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='resume-button'>Resume</button></a>
             <div className='links-to'>
-              <a href='https://github.com/Jherrera1234/'><Icon id='git-link' className='icons' icon="bi:github" width="50" height="50" /></a>
+              <a href='https://github.com/Jherrera1234/' rel="noopener noreferrer" target="_blank"><Icon id='git-link' className='icons' icon="bi:github" width="50" height="50" /></a>
               <br />
-              <a href='https://www.linkedin.com/in/jorge-o-herrera-/' ><Icon id='git-link' className='icons' icon="bi:linkedin" width="50" height="50" /></a>
+              <a href='https://www.linkedin.com/in/jorge-o-herrera-/' rel="noopener noreferrer" target="_blank"><Icon id='git-link' className='icons' icon="bi:linkedin" width="50" height="50" /></a>
             </div>
           </div>
           <div className='skills-div'>
             <h2 className='headers'>Skills</h2>
             <p className='info-p'> I currently thoroughly know or am familar with these programming languages and softwares:</p>
-            <ul className='skills-list'>
-              <li>JavaScript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>React.js</li>
-              <li>Ruby</li>
-              <li>Ruby on Rails</li>
-              <li>Express</li>
-              <li>PostgreSQL</li>
-              <li>MongoDB</li>
-              <li>C++</li>
-              <li>C#</li>
-              <li>MATLAB</li>
-              <li>Unity/Unity3D</li>
-            </ul>
+            <div className='skills-container'>
+              <ul className='skills-list'>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React.js</li>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
+                <li>Express</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>C++</li>
+                <li>C#</li>
+                <li>MATLAB</li>
+                <li>Unity/Unity3D</li>
+              </ul>
+            </div>
             <div className='img-class'>
               <Icon className='icons' icon="akar-icons:html-fill" color="orange" width="100" height="100" />
               <Icon className='icons' icon="akar-icons:css-fill" color="blue" width="100" height="100" />
