@@ -12,7 +12,7 @@ export default function Home() {
 
         <div className='bio-div'>
           <h2 className='headers'>About Me: </h2>
-          <p className='pargraph-bio'> I am a Software Engineer graduate from Genereal Assembly with experience in React.js, Express/MongoDb and Ruby On Rails. I have an strong desire to learn and always able to adapt to any situation. I came out of every unit and project learning something every day. I hope to keep this experience going at  a tech company and grow as a developer. I am also a Mechanical Engineering graduate from Northern Illinois University. I hope that I can integrate my problem-solving skills into any software developer environment. I also  have experience in customer service working in retail at Home Depot and Domino's Pizza. </p>
+          <p className='pargraph-bio'> I am a Software Engineer graduate from Genereal Assembly with experience in React.js, Express/MongoDb and Ruby On Rails. I have a strong desire to learn and always able to adapt to any situation. I came out of every unit and project learning something every day. I hope to keep this experience going at  a tech company and grow as a developer. I am also a Mechanical Engineering graduate from Northern Illinois University. I hope that I can integrate my problem-solving skills into any software developer environment. I also  have experience in customer service working in retail at Home Depot and Domino's Pizza. </p>
           <div className='projects-div'>
             <h3> Check out my projects here: </h3>
             <Link className='project-home' to='/projects'>
